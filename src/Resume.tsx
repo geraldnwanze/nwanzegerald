@@ -1,5 +1,6 @@
 import type React from "react";
 import data from './data.json';
+import dp from './assets/dp.png';
 
 const Resume: React.FC = () => {
   return (
@@ -37,7 +38,7 @@ const Resume: React.FC = () => {
                 <p className="text-gray-300 mt-1">{ data.occupation }</p>
               </div>
               <div className="w-16 h-16 rounded-2xl bg-white/10 flex items-center justify-center text-2xl font-bold">
-                { data.abbreviation }
+                <img src={dp} alt="" className="rounded-2xl" />
               </div>
             </div>
 
@@ -153,23 +154,7 @@ const Resume: React.FC = () => {
         </div>
 
         <div className="grid md:grid-cols-3 gap-8">
-          {[
-            {
-              title: "Fintech Dashboard",
-              tech: "React • Laravel • AWS",
-              desc: "A modern financial analytics platform with real-time reporting and transaction monitoring.",
-            },
-            {
-              title: "Marketplace Platform",
-              tech: "NestJS • PostgreSQL • Docker",
-              desc: "Scalable multi-vendor marketplace with secure authentication and payment integration.",
-            },
-            {
-              title: "Blockchain App",
-              tech: "TypeScript • Web3 • Node.js",
-              desc: "Web3 application with wallet integrations, smart contract interactions, and token utilities.",
-            },
-          ].map((project) => (
+          {data.portfolio.map((project) => (
             <div
               key={project.title}
               className="bg-white rounded-3xl p-8 border border-gray-100 shadow-sm hover:-translate-y-1 transition"

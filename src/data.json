@@ -4,33 +4,33 @@
     "occupation": "Software Developer",
     "years_of_experience": "3+",
     "primary_stack": [
-        "React",
-        "Laravel",
-        "NestJS",
-        "TypeScript",
-        "AWS"
+        "MERN",
+        "PERN",
+        "LAMP",
+        "LNMP / LEMP"
     ],
     "stacks": [
         {
             "title": "Frontend",
             "desc": [
-                "React",
-                "Next.js",
-                "Tailwind CSS",
-                "Redux Toolkit",
+                "React, ",
+                "Next.js, ",
+                "Tailwind CSS, ",
+                "Redux Toolkit, ",
                 "TypeScript"
             ]
         },
         {
             "title": "Backend",
             "desc": [
-                "Php",
-                "Laravel",
-                "NestJS",
-                "Node.js",
-                "REST APIs",
-                "MySQL",
-                "PostgreSQL"
+                "Php, ",
+                "Laravel, ",
+                "NestJS, ",
+                "Node.js, ",
+                "REST APIs, ",
+                "MySQL, ",
+                "PostgreSQL, ",
+                "MongoDB"
             ]
         },
         {
@@ -50,31 +50,54 @@
                 "Postman",
                 "Linux",
                 "Figma",
-                "Meilisearch"
+                "Meilisearch",
+                "Elastic Search"
             ]
         }
     ],
     "experience": [
         {
-            "role": "Senior Full Stack Developer",
-            "company": "Tech Company",
-            "year": "2023 - Present",
+            "role": "CTO",
+            "company": "Oaksvale",
+            "year": "2025 - Present",
             "desc": "Led the development of scalable web applications, optimized backend services, and improved overall application performance."
         },
         {
-            "role": "Backend Developer",
-            "company": "Startup Inc.",
-            "year": "2021 - 2023",
+            "role": "Software Engineer and Project Lead",
+            "company": "Astravest Tech Limited",
+            "year": "2024 - 2025",
             "desc": "Built secure REST APIs and integrated payment systems while improving infrastructure reliability and deployment workflows."
         },
         {
-            "role": "Frontend Developer",
-            "company": "Digital Agency",
-            "year": "2019 - 2021",
+            "role": "Full Stack Engineer",
+            "company": "Shuttlers",
+            "year": "2023 - 2024",
+            "desc": "Developed responsive interfaces and collaborated closely with designers to improve user experience and accessibility."
+        },
+        {
+            "role": "Backend Engineer",
+            "company": "Whipik",
+            "year": "2021 - 2022",
             "desc": "Developed responsive interfaces and collaborated closely with designers to improve user experience and accessibility."
         }
     ],
-    "portfolio": [],
+    "portfolio": [
+        {
+            "title": "Fintech Dashboard",
+            "tech": "React • Laravel • AWS",
+            "desc": "A modern financial analytics platform with real-time reporting and transaction monitoring."
+          },
+          {
+            "title": "Marketplace Platform",
+            "tech": "NestJS • PostgreSQL • Docker",
+            "desc": "Scalable multi-vendor marketplace with secure authentication and payment integration."
+          },
+          {
+            "title": "Blockchain App",
+            "tech": "TypeScript • Web3 • Node.js",
+            "desc": "Web3 application with wallet integrations, smart contract interactions, and token utilities."
+          }
+    ],
     "socials": {
         "email": {
             "title": "nwanzegerald@gmail.com",
