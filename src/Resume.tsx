@@ -29,7 +29,7 @@ const Resume: React.FC = () => {
               </button>
             </div>
           </div>
-
+   
           <div className="bg-gradient-to-br from-gray-900 to-gray-700 rounded-[2rem] p-8 text-white shadow-2xl">
             <div className="flex items-center justify-between mb-10">
               <div>
