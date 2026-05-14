@@ -1,4 +1,5 @@
 import type React from "react";
+import data from './data.json';
 
 const Resume: React.FC = () => {
   return (
@@ -15,14 +16,14 @@ const Resume: React.FC = () => {
               <span className="block text-gray-600">modern digital products.</span>
             </h1>
             <p className="text-lg text-gray-600 leading-relaxed max-w-xl mb-8">
-              Experienced full-stack developer focused on creating performant,
+              Experienced software developer focused on creating performant,
               user-friendly applications using modern technologies and clean architecture.
             </p>
 
             <div className="flex flex-wrap gap-4">
-              <button className="bg-black text-white px-6 py-3 rounded-2xl text-sm font-medium hover:opacity-90 transition">
-                Download Resume
-              </button>
+              <a href={data.calendly} target="_blank" className="bg-black text-white px-6 py-3 rounded-2xl text-sm font-medium hover:opacity-90 transition">
+                Schedule An Appointment
+              </a>
               <button className="border border-gray-300 px-6 py-3 rounded-2xl text-sm font-medium hover:bg-gray-100 transition">
                 Contact Me
               </button>
@@ -32,30 +33,24 @@ const Resume: React.FC = () => {
           <div className="bg-gradient-to-br from-gray-900 to-gray-700 rounded-[2rem] p-8 text-white shadow-2xl">
             <div className="flex items-center justify-between mb-10">
               <div>
-                <h2 className="text-2xl font-semibold">John Developer</h2>
-                <p className="text-gray-300 mt-1">Full Stack Engineer</p>
+                <h2 className="text-2xl font-semibold">{ data.fullname }</h2>
+                <p className="text-gray-300 mt-1">{ data.occupation }</p>
               </div>
               <div className="w-16 h-16 rounded-2xl bg-white/10 flex items-center justify-center text-2xl font-bold">
-                JD
+                { data.abbreviation }
               </div>
             </div>
 
             <div className="space-y-6">
               <div>
                 <p className="text-gray-400 text-sm mb-1">Experience</p>
-                <h3 className="text-xl font-medium">5+ Years</h3>
+                <h3 className="text-xl font-medium">{ data.years_of_experience } Years</h3>
               </div>
 
               <div>
                 <p className="text-gray-400 text-sm mb-1">Primary Stack</p>
                 <div className="flex flex-wrap gap-2 mt-3">
-                  {[
-                    "React",
-                    "Laravel",
-                    "NestJS",
-                    "TypeScript",
-                    "AWS",
-                  ].map((tech) => (
+                  {data.primary_stack.map((tech) => (
                     <span
                       key={tech}
                       className="px-3 py-2 rounded-xl bg-white/10 text-sm"
@@ -97,24 +92,7 @@ const Resume: React.FC = () => {
             </div>
 
             <div className="grid sm:grid-cols-2 gap-6">
-              {[
-                {
-                  title: "Frontend",
-                  desc: "React, Next.js, Tailwind CSS, Redux Toolkit, TypeScript",
-                },
-                {
-                  title: "Backend",
-                  desc: "Laravel, NestJS, Node.js, REST APIs, PostgreSQL",
-                },
-                {
-                  title: "Cloud & DevOps",
-                  desc: "AWS, Docker, CI/CD Pipelines, GitHub Actions",
-                },
-                {
-                  title: "Tools",
-                  desc: "Git, Postman, Linux, Figma, Firebase",
-                },
-              ].map((item) => (
+              {data.stacks.map((item) => (
                 <div
                   key={item.title}
                   className="bg-white p-6 rounded-3xl shadow-sm border border-gray-100"
@@ -145,26 +123,7 @@ const Resume: React.FC = () => {
           </div>
 
           <div className="space-y-8">
-            {[
-              {
-                role: "Senior Full Stack Developer",
-                company: "Tech Company",
-                year: "2023 - Present",
-                desc: "Led the development of scalable web applications, optimized backend services, and improved overall application performance.",
-              },
-              {
-                role: "Backend Developer",
-                company: "Startup Inc.",
-                year: "2021 - 2023",
-                desc: "Built secure REST APIs and integrated payment systems while improving infrastructure reliability and deployment workflows.",
-              },
-              {
-                role: "Frontend Developer",
-                company: "Digital Agency",
-                year: "2019 - 2021",
-                desc: "Developed responsive interfaces and collaborated closely with designers to improve user experience and accessibility.",
-              },
-            ].map((job) => (
+            {data.experience.map((job) => (
               <div
                 key={job.role}
                 className="grid md:grid-cols-4 gap-6 bg-gray-50 p-8 rounded-3xl border border-gray-100"
@@ -247,15 +206,15 @@ const Resume: React.FC = () => {
           </p>
 
           <div className="flex flex-wrap justify-center gap-4">
-            <button className="bg-white text-black px-6 py-3 rounded-2xl text-sm font-medium hover:opacity-90 transition">
-              hello@example.com
-            </button>
-            <button className="border border-white/20 px-6 py-3 rounded-2xl text-sm font-medium hover:bg-white/10 transition">
-              LinkedIn
-            </button>
-            <button className="border border-white/20 px-6 py-3 rounded-2xl text-sm font-medium hover:bg-white/10 transition">
-              GitHub
-            </button>
+            <a href={`mailto: ${data.socials.email.link}`} className="bg-white text-black px-6 py-3 rounded-2xl text-sm font-medium hover:opacity-90 transition">
+              {data.socials.email.title}
+            </a>
+            <a href={data.socials.twitter.link} className="border border-white/20 px-6 py-3 rounded-2xl text-sm font-medium hover:bg-white/10 transition">
+              {data.socials.twitter.title}
+            </a>
+            <a href={data.socials.github.link} className="border border-white/20 px-6 py-3 rounded-2xl text-sm font-medium hover:bg-white/10 transition">
+              {data.socials.github.title}
+            </a>
           </div>
         </div>
       </section>
