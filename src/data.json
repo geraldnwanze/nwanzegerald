@@ -36,22 +36,22 @@
         {
             "title": "Cloud & DevOps",
             "desc": [
-                "AWS",
-                "Docker",
-                "CI/CD Pipelines",
-                "GitHub Actions"
+                "AWS, ",
+                "Docker, ",
+                "CI/CD Pipelines, ",
+                "GitHub Actions "
             ]
         },
         {
             "title": "Tools",
             "desc": [
-                "Git",
-                "Github",
-                "Postman",
-                "Linux",
-                "Figma",
-                "Meilisearch",
-                "Elastic Search"
+                "Git, ",
+                "Github, ",
+                "Postman, ",
+                "Linux, ",
+                "Figma, ",
+                "Meilisearch, ",
+                "Elastic Search "
             ]
         }
     ],
