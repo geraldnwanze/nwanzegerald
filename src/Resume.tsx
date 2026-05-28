@@ -169,9 +169,9 @@ const Resume: React.FC = () => {
                 {project.desc}
               </p>
 
-              <button className="text-sm font-medium hover:underline">
+              <a href={project.link} target="_blank" rel="noreferrer" className="text-sm font-medium hover:underline">
                 View Project →
-              </button>
+              </a>
             </div>
           ))}
         </div>
@@ -196,6 +196,9 @@ const Resume: React.FC = () => {
             </a>
             <a href={data.socials.twitter.link} className="border border-white/20 px-6 py-3 rounded-2xl text-sm font-medium hover:bg-white/10 transition">
               {data.socials.twitter.title}
+            </a>
+            <a href={data.socials.linkedin.link} className="border border-white/20 px-6 py-3 rounded-2xl text-sm font-medium hover:bg-white/10 transition">
+              {data.socials.linkedin.title}
             </a>
             <a href={data.socials.github.link} className="border border-white/20 px-6 py-3 rounded-2xl text-sm font-medium hover:bg-white/10 transition">
               {data.socials.github.title}

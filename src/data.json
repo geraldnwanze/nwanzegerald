@@ -60,42 +60,45 @@
             "role": "CTO",
             "company": "Oaksvale",
             "year": "2025 - Present",
-            "desc": "Leading the development of scalable web3 applications, optimized backend and frontend services, and improved overall application performance."
+            "desc": "Leading the company’s overall technology strategy and supervising the development of scalable web3 applications and digital platforms. Managing frontend and backend engineering teams while ensuring that projects are delivered efficiently and aligned with business objectives. Driving architectural decisions, optimizing system performance, and improving infrastructure reliability across multiple products and services. Collaborating closely with stakeholders, designers, and product teams to transform business ideas into production-ready solutions with excellent user experience. Overseeing technical innovation, development standards, deployment processes, and long-term scalability planning to support the company’s continued growth."
         },
         {
             "role": "Software Engineer and Project Lead",
             "company": "Astravest Tech Limited",
             "year": "2024 - 2025",
-            "desc": "Built secure REST APIs and integrated payment systems while improving infrastructure reliability and deployment workflows."
+            "desc": "Led the planning, execution, and successful delivery of multiple software projects across different business domains and client requirements. Built secure and scalable REST APIs, integrated payment systems, and implemented backend services that supported high-performance applications. Coordinated development activities between designers, frontend engineers, and backend developers to ensure efficient workflows and timely delivery of features. Improved deployment pipelines, application architecture, and infrastructure reliability to reduce downtime and enhance maintainability. Provided technical leadership, code reviews, and mentorship while ensuring that engineering standards and best practices were consistently followed throughout the development lifecycle."
         },
         {
             "role": "Full Stack Engineer",
             "company": "Shuttlers",
             "year": "2023 - 2024",
-            "desc": "Developed responsive interfaces and collaborated closely with designers to improve user experience and accessibility."
+            "desc": "Developed and maintained scalable full-stack applications by building responsive user interfaces and robust backend systems for web platforms. Collaborated closely with product managers, designers, and engineers to deliver user-focused features that improved customer experience and platform usability. Implemented frontend components, backend APIs, and database solutions while ensuring optimal application performance and maintainability. Participated in debugging, testing, feature optimization, and system improvements to ensure stable and reliable application releases. Contributed to architectural discussions, development workflows, and engineering best practices that supported faster development cycles and long-term product scalability."
         },
         {
             "role": "Backend Engineer",
             "company": "Whipik",
             "year": "2021 - 2022",
-            "desc": "Developed responsive interfaces and collaborated closely with designers to improve user experience and accessibility."
+            "desc": "Designed, developed, and maintained backend systems and APIs that powered the company’s core business operations and digital services. Built secure server-side applications with strong focus on database optimization, authentication systems, and API reliability. Worked closely with frontend developers and product teams to ensure seamless integration between backend services and user-facing applications. Improved application performance, resolved system bottlenecks, and implemented scalable solutions that enhanced overall platform stability and efficiency. Participated in deployment processes, debugging, technical documentation, and continuous system improvements to maintain reliable and high-performing backend infrastructure."
         }
     ],
     "portfolio": [
         {
-            "title": "Fintech Dashboard",
-            "tech": "React • Laravel • AWS",
-            "desc": "A modern financial analytics platform with real-time reporting and transaction monitoring."
+            "title": "Cross Border Payment Platform",
+            "tech": "Nest.js • React.js • AWS • Git • Github • Redis • Cloudflare",
+            "desc": "A modern financial analytics platform with real-time reporting and transaction monitoring.",
+            "link": "https://astrabiz.co/"
           },
           {
-            "title": "Marketplace Platform",
-            "tech": "NestJS • PostgreSQL • Docker",
-            "desc": "Scalable multi-vendor marketplace with secure authentication and payment integration."
+            "title": "Voucher Platform",
+            "tech": "NestJS • PostgreSQL • Docker • Next.js • Meilisearch • Cloudinary • Stripe • Cloudflare • Redis",
+            "desc": "Scalable multi-vendor marketplace with secure authentication and payment integration.",
+            "link": "https://www.shuttlers.co/products/voucher"
           },
           {
-            "title": "Blockchain App",
-            "tech": "TypeScript • Web3 • Node.js",
-            "desc": "Web3 application with wallet integrations, smart contract interactions, and token utilities."
+            "title": "RWA Property DAO",
+            "tech": "TypeScript • Web3 • Laravel/Php • React.js • Nest.js • Git • Github • CI/CD • Privy • Cloudinary • Cloudflare",
+            "desc": "Web3 application with wallet integrations, smart contract interactions, and token utilities.",
+            "link": "https://oaksvale.com/"
           }
     ],
     "socials": {
@@ -110,6 +113,10 @@
         "github": {
             "title": "Github",
             "link": "https://github.com/geraldnwanze"
+        },
+        "linkedin": {
+            "title": "LinkedIn",
+            "link": "https://www.linkedin.com/in/mosco-dev/"
         }
     },
     "calendly": "https://calendly.com/nwanzegerald/30min"
