@@ -1,8 +1,10 @@
 {
     "fullname": "Gerald Nwanze",
     "abbreviation": "GN",
-    "occupation": "Software Developer",
+    "occupation": "Software Engineer",
+    "focus": "REST APIs • Production Incident Response • Distributed Systems",
     "years_of_experience": "5+",
+    "introduction": "Software Engineer with 5+ years of experience designing, debugging, and supporting production systems across fintech, SaaS, Web3, and e-commerce. Experienced in investigating production incidents, reproducing API failures, debugging authentication and authorization issues, and performing root-cause analysis across distributed systems using logs, CLI tools, databases, and AI-assisted investigation.",
     "primary_stack": [
         "MERN",
         "PERN",
@@ -53,51 +55,125 @@
                 "Meilisearch, ",
                 "Elastic Search "
             ]
+        },
+        {
+            "title": "Technical Troubleshooting",
+            "desc": [
+                "REST APIs, ",
+                "HTTP, ",
+                "JSON, ",
+                "JWT, ",
+                "OAuth, ",
+                "Postman, ",
+                "curl, ",
+                "CLI, ",
+                "Linux, ",
+                "Docker, ",
+                "Redis, ",
+                "PostgreSQL, ",
+                "Root Cause Analysis, ",
+                "Log Analysis, ",
+                "Distributed Systems, ",
+                "AI-assisted Debugging"
+            ]
+        },
+        {
+            "title": "AI-Assisted Engineering",
+            "desc": [
+                "Daily user of ChatGPT and Claude for debugging, documentation analysis, architecture validation, and production troubleshooting.",
+                "Validate AI-generated recommendations through reproducible testing, logs, API traces, and official documentation before implementation.",
+                "Use AI to accelerate root-cause analysis while independently verifying findings and reproducing issues."
+            ]
         }
     ],
+    "core_competence": {
+        "title": "Core Competencies",
+        "desc": [
+            "Production Incident Response",
+            "Root Cause Analysis",
+            "API Troubleshooting",
+            "Customer Issue Investigation",
+            "Authentication & Authorization",
+            "Infrastructure Reliability",
+            "Performance Optimisation",
+            "Production Debugging",
+            "Cross-functional Collaboration",
+            "Technical Leadership"
+        ]
+    },
     "experience": [
         {
             "role": "CTO",
             "company": "Oaksvale",
             "year": "2025 - Present",
-            "desc": "Leading the company’s overall technology strategy and supervising the development of scalable web3 applications and digital platforms. Managing frontend and backend engineering teams while ensuring that projects are delivered efficiently and aligned with business objectives. Driving architectural decisions, optimizing system performance, and improving infrastructure reliability across multiple products and services. Collaborating closely with stakeholders, designers, and product teams to transform business ideas into production-ready solutions with excellent user experience. Overseeing technical innovation, development standards, deployment processes, and long-term scalability planning to support the company’s continued growth."
+            "Environment": "NestJS • Laravel • React • PostgreSQL • AWS • Web3 • GitHub Actions",
+            "desc": [
+                "Led engineering strategy across multiple SaaS and Web3 platforms.",
+                "Owned investigation and resolution of production incidents affecting APIs, authentication, infrastructure, and third-party integrations.",
+                "Improved platform reliability through architecture reviews, observability, and root-cause analysis.",
+                "Established engineering standards for deployment, incident response, and system reliability.",
+                "Collaborated directly with product teams and stakeholders to resolve customer-impacting technical issues."
+            ]
         },
         {
             "role": "Software Engineer and Project Lead",
             "company": "Astravest Tech Limited",
             "year": "2024 - 2025",
-            "desc": "Led the planning, execution, and successful delivery of multiple software projects across different business domains and client requirements. Built secure and scalable REST APIs, integrated payment systems, and implemented backend services that supported high-performance applications. Coordinated development activities between designers, frontend engineers, and backend developers to ensure efficient workflows and timely delivery of features. Improved deployment pipelines, application architecture, and infrastructure reliability to reduce downtime and enhance maintainability. Provided technical leadership, code reviews, and mentorship while ensuring that engineering standards and best practices were consistently followed throughout the development lifecycle."
+            "environment": "NestJS • PostgreSQL • Docker • Redis • AWS • GitHub Actions • React • Linux",
+            "desc": [
+                "Led engineering strategy across multiple SaaS and Web3 products.",
+                "Diagnosed production issues affecting APIs, authentication workflows, and cloud infrastructure.",
+                "Improved platform reliability through architecture reviews, log analysis, and infrastructure optimisation.",
+                "Mentored engineering teams while establishing development and incident response standards.",
+                "Collaborated with stakeholders to resolve critical production issues and improve customer experience.",
+                "Investigated and resolved production API failures involving authentication, payment gateways, PostgreSQL transactions, and third-party integrations.",
+                "Diagnosed deployment failures across Docker, CI/CD, PostgreSQL, and cloud infrastructure.",
+                "Debugged REST API issues using Postman, logs, SQL queries, and distributed tracing.",
+                "Improved reliability by resolving infrastructure bottlenecks and backend performance issues."
+            ]
         },
         {
             "role": "Full Stack Engineer",
             "company": "Shuttlers",
             "year": "2023 - 2024",
-            "desc": "Developed and maintained scalable full-stack applications by building responsive user interfaces and robust backend systems for web platforms. Collaborated closely with product managers, designers, and engineers to deliver user-focused features that improved customer experience and platform usability. Implemented frontend components, backend APIs, and database solutions while ensuring optimal application performance and maintainability. Participated in debugging, testing, feature optimization, and system improvements to ensure stable and reliable application releases. Contributed to architectural discussions, development workflows, and engineering best practices that supported faster development cycles and long-term product scalability."
+            "environment": "NestJS, Nextjs, PostgreSQL, Docker, Railway",
+            "desc": [
+                "Developed and maintained scalable full-stack applications by building responsive user interfaces and robust backend systems for web platforms. Collaborated closely with product managers, designers, and engineers to deliver user-focused features that improved customer experience and platform usability. Implemented frontend components, backend APIs, and database solutions while ensuring optimal application performance and maintainability. Participated in debugging, testing, feature optimization, and system improvements to ensure stable and reliable application releases. Contributed to architectural discussions, development workflows, and engineering best practices that supported faster development cycles and long-term product scalability.",
+                "Investigated customer-reported production defects affecting frontend-backend communication and REST API integrations.",
+                "Debugged frontend-backend integration issues.",
+                "Identified API bottlenecks through log analysis and database profiling."
+            ]
         },
         {
             "role": "Backend Engineer",
             "company": "Whipik",
             "year": "2021 - 2022",
-            "desc": "Designed, developed, and maintained backend systems and APIs that powered the company’s core business operations and digital services. Built secure server-side applications with strong focus on database optimization, authentication systems, and API reliability. Worked closely with frontend developers and product teams to ensure seamless integration between backend services and user-facing applications. Improved application performance, resolved system bottlenecks, and implemented scalable solutions that enhanced overall platform stability and efficiency. Participated in deployment processes, debugging, technical documentation, and continuous system improvements to maintain reliable and high-performing backend infrastructure."
+            "environment": "Laravel, MySQL, Redis, Docker, AWS",
+            "desc": [
+                "Designed, developed, and maintained backend systems and APIs that powered the company’s core business operations and digital services. Built secure server-side applications with strong focus on database optimization, authentication systems, and API reliability. Worked closely with frontend developers and product teams to ensure seamless integration between backend services and user-facing applications. Improved application performance, resolved system bottlenecks, and implemented scalable solutions that enhanced overall platform stability and efficiency. Participated in deployment processes, debugging, technical documentation, and continuous system improvements to maintain reliable and high-performing backend infrastructure.",
+                "Diagnosed authentication failures involving JWT-based APIs.",
+                "Resolved backend performance bottlenecks through database optimisation and log analysis.",
+                "Investigated production issues using SQL queries, server logs, and API testing tools."
+            ]
         }
     ],
     "portfolio": [
         {
             "title": "Cross Border Payment Platform",
             "tech": "Nest.js • React.js • AWS • Git • Github • Redis • Cloudflare",
-            "desc": "A modern financial analytics platform with real-time reporting and transaction monitoring.",
+            "desc": "Built a distributed payment platform supporting secure transactions, authentication, Redis caching, and cloud infrastructure. Investigated transaction inconsistencies, API failures, and infrastructure bottlenecks to improving reliability and reducing production issues across distributed services.",
             "link": "https://astrabiz.co/"
           },
           {
             "title": "Voucher Platform",
             "tech": "NestJS • PostgreSQL • Docker • Next.js • Meilisearch • Cloudinary • Stripe • Cloudflare • Redis",
-            "desc": "Scalable multi-vendor marketplace with secure authentication and payment integration.",
+            "desc": "Built a multi-vendor voucher platform featuring secure authentication, payment integrations, Docker-based deployment, Redis caching, and Meilisearch. Diagnosed API, database, and deployment issues to improve production stability.",
             "link": "https://www.shuttlers.co/products/voucher"
           },
           {
             "title": "RWA Property DAO",
             "tech": "TypeScript • Web3 • Laravel/Php • React.js • Nest.js • Git • Github • CI/CD • Privy • Cloudinary • Cloudflare",
-            "desc": "Web3 application with wallet integrations, smart contract interactions, and token utilities.",
+            "desc": "Web3 application with wallet integrations, smart contract interactions, wallet authentication, blockchain integration, API security, debugging smart contract interactions.",
             "link": "https://oaksvale.com/"
           }
     ],

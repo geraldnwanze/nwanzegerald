@@ -10,15 +10,14 @@ const Resume: React.FC = () => {
         <div className="max-w-6xl mx-auto px-6 py-16 grid md:grid-cols-2 gap-10 items-center">
           <div>
             <p className="text-sm uppercase tracking-[0.3em] text-gray-500 mb-4">
-              Software Developer
+              SOFTWARE ENGINEER
             </p>
             <h1 className="text-5xl md:text-6xl font-bold leading-tight mb-6">
               Building scalable,
               <span className="block text-gray-600">modern digital products.</span>
             </h1>
             <p className="text-lg text-gray-600 leading-relaxed max-w-xl mb-8">
-              Experienced software developer focused on creating performant,
-              user-friendly applications using modern technologies and clean architecture.
+              { data.introduction }
             </p>
 
             <div className="flex flex-wrap gap-4">
@@ -36,6 +35,7 @@ const Resume: React.FC = () => {
               <div>
                 <h2 className="text-2xl font-semibold">{ data.fullname }</h2>
                 <p className="text-gray-300 mt-1">{ data.occupation }</p>
+                <p className="text-gray-300 mt-1">{ data.focus }</p>
               </div>
               <div className="w-16 h-16 rounded-2xl bg-white/10 flex items-center justify-center text-2xl font-bold">
                 <img src={dp} alt="" className="rounded-2xl" />
@@ -86,10 +86,17 @@ const Resume: React.FC = () => {
           <div className="md:col-span-2 grid gap-6">
             <div className="bg-white p-8 rounded-3xl shadow-sm border border-gray-100">
               <p className="text-gray-600 leading-relaxed text-lg">
-                I specialize in building scalable web applications, APIs, and
-                cloud-based systems with a strong focus on clean code,
-                maintainability, and performance optimization.
+                I specialize in designing, supporting, and troubleshooting production software systems. My work spans backend engineering, REST APIs, cloud infrastructure, databases, authentication, CI/CD, and distributed services, with a strong emphasis on identifying root causes, improving system reliability, and resolving complex technical issues.
               </p>
+            </div>
+
+            <div className="bg-white p-6 rounded-3xl shadow-sm border border-gray-100">
+                  <h3 className="text-xl font-semibold mb-3">{data.core_competence.title}</h3>
+                  {
+                    data.core_competence.desc.map((desc) => (
+                      <p className="text-gray-600 leading-relaxed">{desc}</p>
+                    ))
+                  }
             </div>
 
             <div className="grid sm:grid-cols-2 gap-6">
@@ -136,7 +143,14 @@ const Resume: React.FC = () => {
                 <div className="md:col-span-3">
                   <h3 className="text-2xl font-semibold mb-1">{job.role}</h3>
                   <p className="text-gray-500 mb-4">{job.company}</p>
-                  <p className="text-gray-600 leading-relaxed">{job.desc}</p>
+
+                  <h5 className="text-lg font-semibold mb-1">Environment: </h5>
+                  <p className="text-gray-500 mb-4">{job.environment}</p>
+                  {
+                    job.desc.map((exp) => (
+                      <li className="text-gray-600 leading-relaxed mb-2">{exp}</li>
+                    ))
+                  }
                 </div>
               </div>
             ))}
@@ -191,16 +205,16 @@ const Resume: React.FC = () => {
           </p>
 
           <div className="flex flex-wrap justify-center gap-4">
-            <a href={`mailto: ${data.socials.email.link}`} className="bg-white text-black px-6 py-3 rounded-2xl text-sm font-medium hover:opacity-90 transition">
+            <a href={`mailto: ${data.socials.email.link}`} target="_blank" rel="noreferrer" className="bg-white text-black px-6 py-3 rounded-2xl text-sm font-medium hover:opacity-90 transition">
               {data.socials.email.title}
             </a>
-            <a href={data.socials.twitter.link} className="border border-white/20 px-6 py-3 rounded-2xl text-sm font-medium hover:bg-white/10 transition">
+            <a href={data.socials.twitter.link} target="_blank" rel="noreferrer" className="border border-white/20 px-6 py-3 rounded-2xl text-sm font-medium hover:bg-white/10 transition">
               {data.socials.twitter.title}
             </a>
-            <a href={data.socials.linkedin.link} className="border border-white/20 px-6 py-3 rounded-2xl text-sm font-medium hover:bg-white/10 transition">
+            <a href={data.socials.linkedin.link} target="_blank" rel="noreferrer" className="border border-white/20 px-6 py-3 rounded-2xl text-sm font-medium hover:bg-white/10 transition">
               {data.socials.linkedin.title}
             </a>
-            <a href={data.socials.github.link} className="border border-white/20 px-6 py-3 rounded-2xl text-sm font-medium hover:bg-white/10 transition">
+            <a href={data.socials.github.link} target="_blank" rel="noreferrer" className="border border-white/20 px-6 py-3 rounded-2xl text-sm font-medium hover:bg-white/10 transition">
               {data.socials.github.title}
             </a>
           </div>
