@@ -14,76 +14,27 @@
     "stacks": [
         {
             "title": "Frontend",
-            "desc": [
-                "React, ",
-                "Next.js, ",
-                "Tailwind CSS, ",
-                "Redux Toolkit, ",
-                "TypeScript"
-            ]
+            "desc": "React, Next.js, Tailwind CSS, Redux Toolkit, TypeScript"
         },
         {
             "title": "Backend",
-            "desc": [
-                "Php, ",
-                "Laravel, ",
-                "NestJS, ",
-                "Node.js, ",
-                "REST APIs, ",
-                "MySQL, ",
-                "PostgreSQL, ",
-                "MongoDB"
-            ]
+            "desc": "Php, Laravel, NestJS, Node.js, REST APIs, MySQL, PostgreSQL, MongoDB"
         },
         {
             "title": "Cloud & DevOps",
-            "desc": [
-                "AWS, ",
-                "Docker, ",
-                "CI/CD Pipelines, ",
-                "GitHub Actions "
-            ]
+            "desc": "AWS, Docker, CI/CD Pipelines, GitHub Actions"
         },
         {
             "title": "Tools",
-            "desc": [
-                "Git, ",
-                "Github, ",
-                "Postman, ",
-                "Linux, ",
-                "Figma, ",
-                "Meilisearch, ",
-                "Elastic Search "
-            ]
+            "desc": "Git, Github, Postman, Linux, Figma, Meilisearch, Elastic Search"
         },
         {
             "title": "Technical Troubleshooting",
-            "desc": [
-                "REST APIs, ",
-                "HTTP, ",
-                "JSON, ",
-                "JWT, ",
-                "OAuth, ",
-                "Postman, ",
-                "curl, ",
-                "CLI, ",
-                "Linux, ",
-                "Docker, ",
-                "Redis, ",
-                "PostgreSQL, ",
-                "Root Cause Analysis, ",
-                "Log Analysis, ",
-                "Distributed Systems, ",
-                "AI-assisted Debugging"
-            ]
+            "desc": "REST APIs, HTTP, JSON, JWT, OAuth, Postman, curl, CLI, Linux, Docker, Redis, PostgreSQL, Root Cause Analysis, Log Analysis, Distributed Systems, AI-assisted Debugging"
         },
         {
             "title": "AI-Assisted Engineering",
-            "desc": [
-                "Daily user of ChatGPT and Claude for debugging, documentation analysis, architecture validation, and production troubleshooting.",
-                "Validate AI-generated recommendations through reproducible testing, logs, API traces, and official documentation before implementation.",
-                "Use AI to accelerate root-cause analysis while independently verifying findings and reproducing issues."
-            ]
+            "desc": "Daily user of ChatGPT and Claude for debugging, documentation analysis, architecture validation, and production troubleshooting. Validate AI-generated recommendations through reproducible testing, logs, API traces, and official documentation before implementation. Use AI to accelerate root-cause analysis while independently verifying findings and reproducing issues."
         }
     ],
     "core_competence": {
@@ -106,7 +57,7 @@
             "role": "CTO",
             "company": "Oaksvale",
             "year": "2025 - Present",
-            "Environment": "NestJS • Laravel • React • PostgreSQL • AWS • Web3 • GitHub Actions",
+            "environment": "NestJS • Laravel • React • PostgreSQL • AWS • Web3 • GitHub Actions",
             "desc": [
                 "Led engineering strategy across multiple SaaS and Web3 platforms.",
                 "Owned investigation and resolution of production incidents affecting APIs, authentication, infrastructure, and third-party integrations.",
@@ -180,7 +131,7 @@
     "socials": {
         "email": {
             "title": "nwanzegerald@gmail.com",
-            "link": "https://www.linkedin.com/in/mosco-dev/"
+            "link": "nwanzegerald@gmail.com"
         },
         "twitter": {
             "title": "X",

@@ -24,9 +24,9 @@ const Resume: React.FC = () => {
               <a href={data.calendly} target="_blank" className="bg-black text-white px-6 py-3 rounded-2xl text-sm font-medium hover:opacity-90 transition">
                 Schedule An Appointment
               </a>
-              <button className="border border-gray-300 px-6 py-3 rounded-2xl text-sm font-medium hover:bg-gray-100 transition">
+              <a href="#contact" className="border border-gray-300 px-6 py-3 rounded-2xl text-sm font-medium hover:bg-gray-100 transition">
                 Contact Me
-              </button>
+              </a>
             </div>
           </div>
    
@@ -94,7 +94,7 @@ const Resume: React.FC = () => {
                   <h3 className="text-xl font-semibold mb-3">{data.core_competence.title}</h3>
                   {
                     data.core_competence.desc.map((desc) => (
-                      <p className="text-gray-600 leading-relaxed">{desc}</p>
+                      <p key={desc} className="text-gray-600 leading-relaxed">{desc}</p>
                     ))
                   }
             </div>
@@ -146,11 +146,11 @@ const Resume: React.FC = () => {
 
                   <h5 className="text-lg font-semibold mb-1">Environment: </h5>
                   <p className="text-gray-500 mb-4">{job.environment}</p>
-                  {
-                    job.desc.map((exp) => (
-                      <li className="text-gray-600 leading-relaxed mb-2">{exp}</li>
-                    ))
-                  }
+                  <ul>
+                    {job.desc.map((exp) => (
+                      <li key={exp} className="text-gray-600 leading-relaxed mb-2">{exp}</li>
+                    ))}
+                  </ul>
                 </div>
               </div>
             ))}
@@ -192,7 +192,7 @@ const Resume: React.FC = () => {
       </section>
 
       {/* Contact */}
-      <section className="bg-black text-white">
+      <section id="contact" className="bg-black text-white">
         <div className="max-w-6xl mx-auto px-6 py-20 text-center">
           <p className="text-sm uppercase tracking-[0.3em] text-gray-400 mb-4">
             Contact
@@ -205,7 +205,7 @@ const Resume: React.FC = () => {
           </p>
 
           <div className="flex flex-wrap justify-center gap-4">
-            <a href={`mailto: ${data.socials.email.link}`} target="_blank" rel="noreferrer" className="bg-white text-black px-6 py-3 rounded-2xl text-sm font-medium hover:opacity-90 transition">
+            <a href={`mailto:${data.socials.email.link}`}className="bg-white text-black px-6 py-3 rounded-2xl text-sm font-medium hover:opacity-90 transition">
               {data.socials.email.title}
             </a>
             <a href={data.socials.twitter.link} target="_blank" rel="noreferrer" className="border border-white/20 px-6 py-3 rounded-2xl text-sm font-medium hover:bg-white/10 transition">
